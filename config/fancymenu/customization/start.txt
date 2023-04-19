@@ -1,0 +1,94 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/background/wallpaper.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 152
+  width = 336
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 17120c93-fce0-4724-ac3b-55c9670b41a01681410812155
+  y = 126
+  height = 84
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 4f395524-2f7d-4dff-9dba-b40059440f841681410812186
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 140
+  width = 360
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = c9426d7f-ec27-4073-bc42-fc4fdada85a01681410812186
+  y = 294
+  height = 10
+}
+
+customization {
+  path = config/fancymenu/background/cubix_noback.png
+  orientation = top-left
+  x = 269
+  width = 94
+  action = addtexture
+  actionid = 994ac50b-5c10-4a49-96a2-b862d31f141d1681410992722
+  y = 137
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.3
+  source = %n% Cubix
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 290
+  width = 93
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5138d8e8-84e4-49c1-947b-da0484c32e4f1681411008309
+  y = 236
+  alignment = left
+  height = 28
+}
+
