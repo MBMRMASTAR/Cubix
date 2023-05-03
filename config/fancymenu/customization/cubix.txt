@@ -1,0 +1,116 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/background/wallpaper.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 155
+  action = deep_customization_element:title_screen_branding
+  actionid = 7c6ae61c-7d8c-4315-af67-968ec72503e51680964558768
+  y = 348
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 445
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 546ed4a5-2481-4878-902a-fcd2e41610c91680964558809
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b6bf5e66-36e8-49cd-bb3e-4eff728b86311680964558810
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = bfc0440a-af71-4415-9f7e-618845fbdcfe1680964558811
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver;cubixnet.aternos.me:42765%btnaction_splitter_fm%
+  x = 45
+  width = 82
+  action = addbutton
+  actionid = 15728e43-dc12-4fa8-a280-179c40718e0b1680964574531
+  y = 214
+  label = Join Cubix
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/background/cubix_noback.png
+  orientation = top-left
+  x = 43
+  width = 94
+  action = addtexture
+  actionid = 0ba15593-820d-4848-ae2c-43b164d99d951681411177963
+  y = 95
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/Qhbxpta8GR%btnaction_splitter_fm%
+  x = 45
+  width = 82
+  action = addbutton
+  actionid = 4b94c14b-71ee-4b1d-8512-6f60ab6964b31681746474241
+  y = 240
+  label = Discord
+  height = 20
+}
+
