@@ -8,29 +8,6 @@ You can use this pack in any server that you want but we are not responsible for
 
 Feel free to stream, record and share this pack.
 
-Pack Features:
-
-Zoom (Logical Zoom)
-
-Food value information to tooltips  (Apple Skin)
-
-Shaders Loader (Iris)
-
-More human-readable F3 HUD (Better F3)
-
-Search for keybinds (Controlling)
-
-Item and recipe viewing (JEI)
-
-Custom Loading and Menu Screen (Drippy Loading Screen, Fancymenu)
-
-Improved Performance (FPS Reducer, Smooth Boot, Sodium, Sodium Extra, Reeses Sodium Options)
-
-Tweaks (Mouse Tweaks)
-
-Pre-Instaled Shaders (Complementary Reimagined, Complementary Shaders)
-
- 
 
 Warn:
 
