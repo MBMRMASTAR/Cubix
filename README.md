@@ -12,3 +12,8 @@ Feel free to stream, record and share this pack.
 Warn:
 
 This Pack is not compatible with Optifine use it at your own risk.
+
+Social:
+Discord - https://discord.gg/Qhbxpta8GR
+
+Tiktok - https://www.tiktok.com/@cubixnet
