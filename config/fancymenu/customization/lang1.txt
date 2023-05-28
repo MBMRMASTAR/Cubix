@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LanguageSelectScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = master
+  x = 546
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = dd241492-5aa8-450b-8133-284cf9bd45791685201657850
+  y = 54
+  audio_source:18e5f71a-2f78-401b-9835-2573c5aba0b61685199124100 = config/fancymenu/audio/Cubix_theme_song.ogg;EXTERNAL_LOCAL;15;0
+  once_per_session = false
+  height = 48
+}
+

@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.class_442
+  identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -30,20 +30,25 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 2
-  width = 155
+  width = 108
   action = deep_customization_element:title_screen_branding
   actionid = 7c6ae61c-7d8c-4315-af67-968ec72503e51680964558768
-  y = 348
-  height = 10
+  y = 318
+  height = 40
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 445
+  x = 423
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = 546ed4a5-2481-4878-902a-fcd2e41610c91680964558809
@@ -53,7 +58,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = true
+  hidden = false
   x = 183
   width = 274
   action = deep_customization_element:title_screen_logo
@@ -65,7 +70,7 @@ customization {
 customization {
   orientation = original
   splash_color = #ffff00
-  hidden = true
+  hidden = false
   x = 0
   width = 60
   splash_rotation = -20
@@ -77,9 +82,31 @@ customization {
 
 customization {
   orientation = top-left
+  hidden = true
+  x = 208
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 4c1ac8cd-92ce-49c4-a347-5b2e380e1a691684787148113
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 455
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3f8dd7f4-1e01-4a28-a8bf-2be783dc00c61684787148114
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = joinserver;cubixnet.aternos.me:42765%btnaction_splitter_fm%
+  buttonaction = joinserver;cubix.falix.gg%btnaction_splitter_fm%
   x = 45
   width = 82
   action = addbutton
@@ -111,6 +138,35 @@ customization {
   actionid = 4b94c14b-71ee-4b1d-8512-6f60ab6964b31681746474241
   y = 240
   label = Discord
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = master
+  x = 545
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = bb9ab317-fd99-45f7-b9fb-168dfd4ae6cf1685198293771
+  y = 54
+  audio_source:18e5f71a-2f78-401b-9835-2573c5aba0b61685199124100 = config/fancymenu/audio/Cubix_theme_song.ogg;EXTERNAL_LOCAL;15;0
+  once_per_session = false
+  height = 48
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = toggle_mute_audio;bb9ab317-fd99-45f7-b9fb-168dfd4ae6cf1685198293771%btnaction_splitter_fm%toggle_mute_audio;ffb14d47-3494-4722-9684-d106c95fc8ce1685201549011%btnaction_splitter_fm%toggle_mute_audio;dd241492-5aa8-450b-8133-284cf9bd45791685201657850%btnaction_splitter_fm%toggle_mute_audio;83edcfdd-3857-4e63-a706-831f2695a5411685201706851%btnaction_splitter_fm%toggle_mute_audio;3f84be2e-c310-4b3a-b33b-86e64e3593b41685201863754%btnaction_splitter_fm%toggle_mute_audio;48a58712-9892-4584-940d-613d0408d83f1685203129094%btnaction_splitter_fm%toggle_mute_audio;439134d5-d011-4d7e-abe3-5280b63252671685203203092%btnaction_splitter_fm%
+  x = 171
+  width = 21
+  action = addbutton
+  actionid = ab4afcfe-c652-4c1d-9598-f9355000c6f31685200116216
+  y = 222
+  description = Toggle Theme Song
+  label = ♫
   height = 20
 }
 

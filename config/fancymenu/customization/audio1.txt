@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.SoundOptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = master
+  x = 546
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 3f84be2e-c310-4b3a-b33b-86e64e3593b41685201863754
+  y = 54
+  audio_source:18e5f71a-2f78-401b-9835-2573c5aba0b61685199124100 = config/fancymenu/audio/Cubix_theme_song.ogg;EXTERNAL_LOCAL;15;0
+  once_per_session = false
+  height = 48
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Just affect the minecraft%n%original sound track --->%n%%n%To Mute the Cubix Theme%n%Song press ♫ in main%n%menu
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 30
+  width = 141
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fe41bb04-60bc-4ab8-a273-8771a0b9d6681685201870879
+  y = 65
+  alignment = left
+  height = 77
+}
+
