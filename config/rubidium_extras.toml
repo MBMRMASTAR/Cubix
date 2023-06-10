@@ -4,7 +4,7 @@
 
 	[Settings."FPS Counter"]
 		"FPS Counter Distance" = 12
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "SIMPLE"
 
 	[Settings.Misc]
 		"Render Fog" = true
@@ -25,7 +25,7 @@
 	[Settings."True Darkness"]
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
 		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DARK"
-		"Use True Darkness" = true
+		"Use True Darkness" = false
 
 		[Settings."True Darkness".Advanced]
 			#Range: 0.0 ~ 1.0
