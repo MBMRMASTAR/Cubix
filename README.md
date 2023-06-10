@@ -8,7 +8,7 @@ You can use this pack in any server that you want but we are not responsible for
 
 Feel free to stream, record and share this pack.
 
-https://cf.way2muchnoise.eu/cubix
++ [![Cubix](http://cf.way2muchnoise.eu/cubix.svg "Cubix") Cubix](https://www.curseforge.com/minecraft/modpacks/cubix)
 
 Warn:
 
