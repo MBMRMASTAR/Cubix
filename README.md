@@ -17,6 +17,7 @@ The Files in Mods Folder belong to the original author's stated in the curseforg
 This Pack is not compatible with Optifine use it at your own risk.
 
 Social:
+
 Discord - https://discord.gg/Qhbxpta8GR
 
 Tiktok - https://www.tiktok.com/@cubixnet
