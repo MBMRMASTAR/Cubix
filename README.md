@@ -1,4 +1,7 @@
-Cubix
+# Cubix
+
+## Disclaimer
+### Abandoned project no support will be provided
 
 This is a pack made for people who want to play on Cubix vanilla server which means that this pack only have some mods to improve users performance as well as some tweaks like shaders and zoom.
 
